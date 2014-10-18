@@ -13,9 +13,3 @@ def render_tic_tac_toe_board_to_ascii board
   end
   puts rendered_board.gsub(/\|{2,}/, '|')
 end
-
-render_tic_tac_toe_board_to_ascii([
-      :x,  nil, nil,
-      :o,  :x,  nil,
-      :x,  :o,  :o,
-    ])
