@@ -9,11 +9,12 @@ def format_string(str, width)
       for i in 0..spaces-1
         if i.odd?
           upcase_word.insert 0, ' '
-        else 
+        else
           upcase_word.insert upcase_word.size, ' '
         end
       end
   end
-
   puts upcase_word
 end
+
+format_string('odd', 4)
